@@ -1,0 +1,231 @@
+[23Feb2024 18:54:13.312] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    ???? ? / arclight-1.19.2-1.0.4-4dbbff1
+    ???? 2024-01-26 13:36:44
+
+[23Feb2024 18:54:13.401] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[23Feb2024 18:54:13.408] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.8 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[23Feb2024 18:54:13.473] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[23Feb2024 18:54:13.500] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[23Feb2024 18:54:13.521] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,arclight_implementer,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[23Feb2024 18:54:13.530] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[23Feb2024 18:54:13.539] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[23Feb2024 18:54:13.551] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[23Feb2024 18:54:13.551] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[23Feb2024 18:54:13.552] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[23Feb2024 18:54:13.552] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[23Feb2024 18:54:13.552] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[23Feb2024 18:54:13.554] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[23Feb2024 18:54:13.554] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[23Feb2024 18:54:13.554] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.8+10.0.8+main.0ef7e830
+[23Feb2024 18:54:13.555] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[23Feb2024 18:54:13.555] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
+[23Feb2024 18:54:13.555] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[23Feb2024 18:54:13.557] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[23Feb2024 18:54:13.558] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+[23Feb2024 18:54:13.558] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[23Feb2024 18:54:13.560] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[23Feb2024 18:54:13.560] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[23Feb2024 18:54:13.569] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[23Feb2024 18:54:13.569] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[23Feb2024 18:54:13.581] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@67e2d983
+[23Feb2024 18:54:13.591] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/downloads/arclight%20server/arclight-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2396!/ Service=ModLauncher Env=SERVER
+[23Feb2024 18:54:13.596] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[23Feb2024 18:54:13.596] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[23Feb2024 18:54:13.597] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[23Feb2024 18:54:13.597] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[23Feb2024 18:54:13.598] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[23Feb2024 18:54:13.598] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[23Feb2024 18:54:13.599] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[23Feb2024 18:54:13.599] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[23Feb2024 18:54:13.599] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : D:\downloads\arclight server\arclight-server
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is D:\downloads\arclight server\arclight-server
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making MODSDIR directory : D:\downloads\arclight server\arclight-server\mods
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created MODSDIR directory : D:\downloads\arclight server\arclight-server\mods
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is D:\downloads\arclight server\arclight-server\mods
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making CONFIGDIR directory : D:\downloads\arclight server\arclight-server\config
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created CONFIGDIR directory : D:\downloads\arclight server\arclight-server\config
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is D:\downloads\arclight server\arclight-server\config
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is D:\downloads\arclight server\arclight-server\config\fml.toml
+[23Feb2024 18:54:13.600] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[23Feb2024 18:54:13.656] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file D:\downloads\arclight server\arclight-server\config\fml.toml is not correct. Correcting
+[23Feb2024 18:54:13.662] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[23Feb2024 18:54:13.675] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making default config directory directory : D:\downloads\arclight server\arclight-server\defaultconfigs
+[23Feb2024 18:54:13.675] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created default config directory directory : D:\downloads\arclight server\arclight-server\defaultconfigs
+[23Feb2024 18:54:13.675] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[23Feb2024 18:54:13.678] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[23Feb2024 18:54:13.679] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[23Feb2024 18:54:13.743] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=43.3.7, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
+[23Feb2024 18:54:13.744] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[23Feb2024 18:54:13.744] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[23Feb2024 18:54:13.745] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[23Feb2024 18:54:13.745] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[23Feb2024 18:54:13.746] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[23Feb2024 18:54:13.746] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[23Feb2024 18:54:13.746] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[23Feb2024 18:54:13.746] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[23Feb2024 18:54:13.817] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\downloads\arclight server\arclight-server\.arclight\mod_file\arclight-1.19.2-1.0.4-4dbbff1.jar
+[23Feb2024 18:54:13.875] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file arclight-1.19.2-1.0.4-4dbbff1.jar with {arclight} mods - versions {1.19.2-1.0.4-4dbbff1}
+[23Feb2024 18:54:13.877] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[23Feb2024 18:54:13.882] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(arclight:arclight-1.19.2-1.0.4-4dbbff1)
+[23Feb2024 18:54:13.887] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[23Feb2024 18:54:14.160] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.19.2-20220805.130853-srg.jar with {minecraft} mods - versions {1.19.2}
+[23Feb2024 18:54:14.169] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\fmlcore\1.19.2-43.3.7\fmlcore-1.19.2-43.3.7.jar
+[23Feb2024 18:54:14.169] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\fmlcore\1.19.2-43.3.7\fmlcore-1.19.2-43.3.7.jar is missing mods.toml file
+[23Feb2024 18:54:14.173] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.3.7\javafmllanguage-1.19.2-43.3.7.jar
+[23Feb2024 18:54:14.177] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.3.7\javafmllanguage-1.19.2-43.3.7.jar is missing mods.toml file
+[23Feb2024 18:54:14.180] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.3.7\lowcodelanguage-1.19.2-43.3.7.jar
+[23Feb2024 18:54:14.180] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.3.7\lowcodelanguage-1.19.2-43.3.7.jar is missing mods.toml file
+[23Feb2024 18:54:14.185] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\mclanguage\1.19.2-43.3.7\mclanguage-1.19.2-43.3.7.jar
+[23Feb2024 18:54:14.185] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\mclanguage\1.19.2-43.3.7\mclanguage-1.19.2-43.3.7.jar is missing mods.toml file
+[23Feb2024 18:54:14.224] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-universal.jar
+[23Feb2024 18:54:14.227] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.3.7-universal.jar with {forge} mods - versions {43.3.7}
+[23Feb2024 18:54:14.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from server-1.19.2-20220805.130853-srg.jar, it does not contain dependency information.
+[23Feb2024 18:54:14.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.19.2-43.3.7-universal.jar, it does not contain dependency information.
+[23Feb2024 18:54:14.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from arclight-1.19.2-1.0.4-4dbbff1.jar, it does not contain dependency information.
+[23Feb2024 18:54:14.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.19.2-43.3.7.jar, it does not contain dependency information.
+[23Feb2024 18:54:14.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.19.2-43.3.7.jar, it does not contain dependency information.
+[23Feb2024 18:54:14.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.19.2-43.3.7.jar, it does not contain dependency information.
+[23Feb2024 18:54:14.251] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.19.2-43.3.7.jar, it does not contain dependency information.
+[23Feb2024 18:54:14.304] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23Feb2024 18:54:14.310] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.19.2-20220805.130853-srg.jar with {minecraft} mods - versions {1.19.2}
+[23Feb2024 18:54:14.342] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\downloads\arclight server\arclight-server\libraries\net\minecraft\server\1.19.2-20220805.130853\server-1.19.2-20220805.130853-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[23Feb2024 18:54:14.343] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-universal.jar
+[23Feb2024 18:54:14.345] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.3.7-universal.jar with {forge} mods - versions {43.3.7}
+[23Feb2024 18:54:14.346] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\downloads\arclight server\arclight-server\libraries\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[23Feb2024 18:54:14.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[23Feb2024 18:54:14.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[23Feb2024 18:54:14.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[23Feb2024 18:54:14.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[23Feb2024 18:54:14.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[23Feb2024 18:54:14.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[23Feb2024 18:54:14.374] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\downloads\arclight server\arclight-server\.arclight\mod_file\arclight-1.19.2-1.0.4-4dbbff1.jar
+[23Feb2024 18:54:14.374] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file arclight-1.19.2-1.0.4-4dbbff1.jar with {arclight} mods - versions {1.19.2-1.0.4-4dbbff1}
+[23Feb2024 18:54:14.374] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\downloads\arclight server\arclight-server\.arclight\mod_file\arclight-1.19.2-1.0.4-4dbbff1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[23Feb2024 18:54:14.376] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[23Feb2024 18:54:14.403] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[23Feb2024 18:54:14.403] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[23Feb2024 18:54:14.404] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 43
+[23Feb2024 18:54:14.405] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 43
+[23Feb2024 18:54:14.413] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[23Feb2024 18:54:14.413] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[23Feb2024 18:54:14.413] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[23Feb2024 18:54:14.416] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements (0 mandatory, 0 optional)
+[23Feb2024 18:54:14.417] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[23Feb2024 18:54:15.142] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[23Feb2024 18:54:15.143] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[23Feb2024 18:54:15.143] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[23Feb2024 18:54:15.143] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[23Feb2024 18:54:15.143] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[23Feb2024 18:54:15.143] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[23Feb2024 18:54:15.689] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[23Feb2024 18:54:15.690] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[23Feb2024 18:54:15.930] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[23Feb2024 18:54:15.930] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[23Feb2024 18:54:16.027] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[23Feb2024 18:54:16.037] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6993c8df to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[23Feb2024 18:54:16.042] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@76a805b7 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[23Feb2024 18:54:16.043] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@15f35bc3 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[23Feb2024 18:54:16.043] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@167381c7 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[23Feb2024 18:54:16.043] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@608b1fd2 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[23Feb2024 18:54:16.044] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@56382bc9 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[23Feb2024 18:54:16.044] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@591a4f8e to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[23Feb2024 18:54:16.044] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@53ed80d3 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[23Feb2024 18:54:16.044] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6ba060f3 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[23Feb2024 18:54:16.045] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[23Feb2024 18:54:16.503] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[23Feb2024 18:54:16.503] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[23Feb2024 18:54:16.503] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[23Feb2024 18:54:16.503] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[23Feb2024 18:54:16.505] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[23Feb2024 18:54:16.505] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[23Feb2024 18:54:16.505] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[23Feb2024 18:54:16.505] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(arclight)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(arclight)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(arclight)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(arclight)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(arclight)
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(arclight)]
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[23Feb2024 18:54:16.506] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[23Feb2024 18:54:16.507] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[23Feb2024 18:54:16.507] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[23Feb2024 18:54:16.507] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(arclight)]
+[23Feb2024 18:54:16.592] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[23Feb2024 18:54:16.595] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[PREINIT]
+[23Feb2024 18:54:16.607] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[23Feb2024 18:54:16.691] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[23Feb2024 18:54:16.697] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[23Feb2024 18:54:16.699] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[23Feb2024 18:54:16.700] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[23Feb2024 18:54:16.703] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[23Feb2024 18:54:16.706] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[23Feb2024 18:54:16.708] [main/DEBUG] [mixin/]: Registering new injector for @Eject with io.izzel.arclight.mixin.injector.EjectorInfo
+[23Feb2024 18:54:16.790] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by mixins.arclight.core.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[23Feb2024 18:54:16.799] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Feb2024 18:54:16.803] [main/INFO] [Arclight/]: ?? Mixin ?????
+[23Feb2024 18:54:16.804] [main/INFO] [Arclight/]: ????? Mixin ?????
+[23Feb2024 18:54:16.817] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[23Feb2024 18:54:16.826] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[23Feb2024 18:54:16.826] [main/DEBUG] [mixin/]: Selecting config mixins.arclight.core.json
+[23Feb2024 18:54:16.929] [main/DEBUG] [mixin/]: Selecting config mixins.arclight.bukkit.json
+[23Feb2024 18:54:16.938] [main/DEBUG] [mixin/]: Selecting config mixins.arclight.forge.json
+[23Feb2024 18:54:17.045] [main/DEBUG] [mixin/]: Selecting config mixins.arclight.impl.forge.optimization.json
+[23Feb2024 18:54:17.060] [main/DEBUG] [mixin/]: Preparing mixins.arclight.core.json (470)
+[23Feb2024 18:54:20.183] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[23Feb2024 18:54:20.250] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[23Feb2024 18:54:20.439] [main/DEBUG] [mixin/]: @Mixin target net/minecraft/world/level/block/ChestBlock$2$1 is public in mixins.arclight.core.json:world.level.block.ChestBlock2_1Mixin and should be specified in value
+[23Feb2024 18:54:20.490] [main/DEBUG] [mixin/]: @Mixin target net.minecraft.world.level.block.ComposterBlock$InputContainer is public in mixins.arclight.core.json:world.level.block.ComposterBlock_InputContainerMixin and should be specified in value
+[23Feb2024 18:54:20.607] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[23Feb2024 18:54:20.803] [main/DEBUG] [mixin/]: @Mixin target net/minecraft/world/level/block/entity/LecternBlockEntity$1 is public in mixins.arclight.core.json:world.level.block.entity.LecternTileEntity1Mixin and should be specified in value
+[23Feb2024 18:54:21.013] [main/DEBUG] [mixin/]: Preparing mixins.arclight.bukkit.json (37)
+[23Feb2024 18:54:21.345] [main/DEBUG] [mixin/]: Preparing mixins.arclight.forge.json (5)
+[23Feb2024 18:54:21.376] [main/DEBUG] [mixin/]: Preparing mixins.arclight.impl.forge.optimization.json (26)
+[23Feb2024 18:54:21.420] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/commands/CommandSource1Mixin$1 in io/izzel/arclight/common/mixin/core/commands/CommandSource1Mixin on net/minecraft/commands/CommandSource$1 gets unique name net/minecraft/commands/CommandSource$1$Anonymous$24946e3a9a31439ebfc4463a664552e8
+[23Feb2024 18:54:21.449] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin$1SyncPreLogin in io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin on net/minecraft/server/network/ServerLoginPacketListenerImpl gets unique name net/minecraft/server/network/ServerLoginPacketListenerImpl$1SyncPreLogin$8c8aa4c2324641ed8135d382d6ac3384
+[23Feb2024 18:54:21.449] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin$1Handler in io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin on net/minecraft/server/network/ServerLoginPacketListenerImpl gets unique name net/minecraft/server/network/ServerLoginPacketListenerImpl$1Handler$bc832dc4601744a8aa6fefb6864fb227
+[23Feb2024 18:54:21.449] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin$2Handler in io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin on net/minecraft/server/network/ServerLoginPacketListenerImpl gets unique name net/minecraft/server/network/ServerLoginPacketListenerImpl$2Handler$bb8340f7d118460a81ec68e6c32b1764
+[23Feb2024 18:54:21.481] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/network/ServerPlayNetHandlerMixin$1 in io/izzel/arclight/common/mixin/core/network/ServerPlayNetHandlerMixin on net/minecraft/server/network/ServerGamePacketListenerImpl gets unique name net/minecraft/server/network/ServerGamePacketListenerImpl$Anonymous$1df06067ea1a4ecbb95a5b128e20ffab
+[23Feb2024 18:54:21.481] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/network/ServerPlayNetHandlerMixin$1Handler in io/izzel/arclight/common/mixin/core/network/ServerPlayNetHandlerMixin on net/minecraft/server/network/ServerGamePacketListenerImpl gets unique name net/minecraft/server/network/ServerGamePacketListenerImpl$1Handler$02cde080268b4b53a6d4ddf947ff4695
+[23Feb2024 18:54:21.481] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/network/ServerPlayNetHandlerMixin$1SyncChat in io/izzel/arclight/common/mixin/core/network/ServerPlayNetHandlerMixin on net/minecraft/server/network/ServerGamePacketListenerImpl gets unique name net/minecraft/server/network/ServerGamePacketListenerImpl$1SyncChat$9033d14df4244e20a539d5dbfe79f755
+[23Feb2024 18:54:21.517] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/network/chat/ComponentMixin$1Func in io/izzel/arclight/common/mixin/core/network/chat/ComponentMixin on net/minecraft/network/chat/Component gets unique name net/minecraft/network/chat/Component$1Func$cc5902abca3648f895b9ee4370625a97
+[23Feb2024 18:54:21.532] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/server/BootstrapMixin$1TrickSet in io/izzel/arclight/common/mixin/core/server/BootstrapMixin on net/minecraft/server/Bootstrap gets unique name net/minecraft/server/Bootstrap$1TrickSet$abd372d8970749f8b6aa6c9c16767be3
+[23Feb2024 18:54:22.349] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/world/inventory/ContainerLevelAccessMixin$1Anonymous in io/izzel/arclight/common/mixin/core/world/inventory/ContainerLevelAccessMixin on net/minecraft/world/inventory/ContainerLevelAccess gets unique name net/minecraft/world/inventory/ContainerLevelAccess$1Anonymous$ed7c0b9ec82643e1a45ee1957db1c4d1
+[23Feb2024 18:54:22.479] [main/DEBUG] [mixin/]: Inner class io/izzel/arclight/common/mixin/core/world/level/block/PistonBlockMixin$1BlockList in io/izzel/arclight/common/mixin/core/world/level/block/PistonBlockMixin on net/minecraft/world/level/block/piston/PistonBaseBlock gets unique name net/minecraft/world/level/block/piston/PistonBaseBlock$1BlockList$dcc15bf9891c4036b8ecfa2fdd8f8ac1
+[23Feb2024 18:54:22.659] [main/DEBUG] [mixin/]: Prepared 538 mixins in 5.817 sec (10.8ms avg) (0ms load, 0ms transform, 0ms plugin)
+[23Feb2024 18:54:22.685] [main/DEBUG] [mixin/]: Mixing server.MinecraftServerMixin from mixins.arclight.core.json into net.minecraft.server.MinecraftServer
+[23Feb2024 18:54:22.701] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$reloadResources$4(Ljava/util/Collection;Lnet/minecraft/server/MinecraftServer$ReloadableResources;)V to md0f6d42$lambda$reloadResources$4$0 in mixins.arclight.core.json:server.MinecraftServerMixin
+[23Feb2024 18:54:22.701] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$reloadResources$3(Lnet/minecraft/core/RegistryAccess$Frozen;Lcom/google/common/collect/ImmutableList;)Ljava/util/concurrent/CompletionStage; to md0f6d42$lambda$reloadResources$3$1 in mixins.arclight.core.json:server.MinecraftServerMixin
+[23Feb2024 18:54:22.701] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$reloadResources$2(Lnet/minecraft/server/packs/resources/CloseableResourceManager;Lnet/minecraft/server/ReloadableServerResources;)Lnet/minecraft/server/MinecraftServer$ReloadableResources; to md0f6d42$lambda$reloadResources$2$2 in mixins.arclight.core.json:server.MinecraftServerMixin
+[23Feb2024 18:54:22.702] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$reloadResources$1(Lnet/minecraft/server/packs/resources/CloseableResourceManager;Lnet/minecraft/server/ReloadableServerResources;Ljava/lang/Throwable;)V to md0f6d42$lambda$reloadResources$1$3 in mixins.arclight.core.json:server.MinecraftServerMixin
+[23Feb2024 18:54:22.702] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$reloadResources$0(Ljava/util/Collection;)Lcom/google/common/collect/ImmutableList; to md0f6d42$lambda$reloadResources$0$4 in mixins.arclight.core.json:server.MinecraftServerMixin
+[23Feb2024 18:54:23.219] [main/DEBUG] [mixin/]: Mixing commands.CommandSourceMixin from mixins.arclight.core.json into net.minecraft.commands.CommandSource
+[23Feb2024 18:54:23.236] [main/DEBUG] [mixin/]: Mixing server.dedicated.DedicatedServerMixin from mixins.arclight.core.json into net.minecraft.server.dedicated.DedicatedServer
+[23Feb2024 18:54:23.236] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$runCommand$0(Ljava/lang/String;)V to md0f6d42$lambda$runCommand$0$0 in mixins.arclight.core.json:server.dedicated.DedicatedServerMixin
+[23Feb2024 18:54:23.389] [main/DEBUG] [mixin/]: Mixing world.storage.LevelStorageSource_LevelStorageAccessMixin from mixins.arclight.core.json into net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess
+[23Feb2024 18:54:23.425] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[23Feb2024 18:54:23.427] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[23Feb2024 18:54:23.427] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[23Feb2024 18:54:23.439] [main/DEBUG] [mixin/]: Mixing network.chat.ComponentMixin from mixins.arclight.core.json into net.minecraft.network.chat.Component
+[23Feb2024 18:54:23.466] [main/DEBUG] [mixin/]: Mixing network.chat.StyleMixin from mixins.arclight.core.json into net.minecraft.network.chat.Style
+[23Feb2024 18:54:23.483] [main/DEBUG] [mixin/]: Mixing network.chat.TextColorMixin from mixins.arclight.core.json into net.minecraft.network.chat.TextColor
+[23Feb2024 18:54:23.596] [main/WARN] [net.minecraft.server.Eula/]: Failed to load eula.txt
+[23Feb2024 18:54:23.611] [main/INFO] [net.minecraft.server.Main/]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[23Feb2024 18:54:23.637] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running all shutdown-hook tasks
+[23Feb2024 18:54:23.638] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running task: org.jline.terminal.impl.AbstractWindowsTerminal$$Lambda$398/0x000002abb928fb78@25508631
+[23Feb2024 18:54:23.638] [JLine Shutdown Hook/DEBUG] [org.jline/]: Removing shutdown-hook: Thread[JLine Shutdown Hook,5,main]
